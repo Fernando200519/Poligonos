@@ -6,6 +6,7 @@ import java.util.ArrayList;
 public class Main {
     static Scanner entrada = new Scanner(System.in);
     static ArrayList<Poligono> poligono = new ArrayList<Poligono>();
+    
     public static void main(String[] args) {
         llenarPoligono();
         mostrarResultados();
